@@ -2,10 +2,9 @@
 
 Uses BepInEx and Harmony to make patches for Thea 2
 
-Default files:
+### Default files:
 
 /BepInEx/core/0Harmony.dll
-
 /BepInEx/core/BepInEx.dll
 
 /BepInEx/core/BepInEx.Harmony.dll
@@ -25,7 +24,7 @@ Default files:
 /doorstop_config.ini
 
 
-File with patches for Thea 2:
+### File with patches for Thea 2:
 
 /BepInEx/plugins/Thea2Patch.dll
 
@@ -36,7 +35,7 @@ File with patches for Thea 2:
 
 Unzip the files in the Thea 2 game folder.
 
-Steam default location:
+### Steam default location:
 
 C:\Program Files (x86)\Steam\steamapps\common\Thea 2 The Shattering
 
@@ -57,6 +56,11 @@ After copying the files just start the game normally.
 
 This isn't the latest version because it is not working with Harmony correctly
 
+From BepInEx:
+NeighTools/UnityDoorstop
+pardeike/Harmony
+0x0ade/MonoMod
+jbevain/cecil
 
 
 # License

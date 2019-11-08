@@ -20,8 +20,8 @@ namespace Thea2ScriptLoaderFix
     [BepInPlugin(GUID, Name, Version)]
     public class Thea2ScriptLoaderFix : BaseUnityPlugin
     {
-        public const string GUID = "pog.thea2.scriptloader.fix";
-        public const string Name = "Thea 2 ScriptLoader Fix";
+        public const string GUID = "pog.thea2.bepinex.harmony.patches";
+        public const string Name = "Thea 2 BepInEx/Harmony Patches";
         public const string Version = "0.1";
 
         private void Start()

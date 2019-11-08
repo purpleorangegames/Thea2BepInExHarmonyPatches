@@ -5,6 +5,7 @@ Uses BepInEx and Harmony to make patches for Thea 2
 ### Default files:
 
 /BepInEx/core/0Harmony.dll
+
 /BepInEx/core/BepInEx.dll
 
 /BepInEx/core/BepInEx.Harmony.dll

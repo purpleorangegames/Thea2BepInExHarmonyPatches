@@ -2,6 +2,15 @@
 
 Uses BepInEx and Harmony to make patches for Thea 2
 
+### Current Patches
+
++ ScriptBundleLoader.ScriptBundle constructor as to skip assemblies with no location (allows Harmony to be imported)
+
++ FSMCoreGame.TemporalEventMode() to disable Halloween event (by running TemporalEventModeOff right after)
+
++ SMTM_PlayerTurn.Activated() to add two new autosave code, one for even turns and another for odd turns
+
+
 ### Default files:
 
 /BepInEx/core/0Harmony.dll

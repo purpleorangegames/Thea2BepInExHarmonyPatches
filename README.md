@@ -57,9 +57,13 @@ After copying the files just start the game normally.
 This isn't the latest version because it is not working with Harmony correctly
 
 From BepInEx:
+
 NeighTools/UnityDoorstop
+
 pardeike/Harmony
+
 0x0ade/MonoMod
+
 jbevain/cecil
 
 

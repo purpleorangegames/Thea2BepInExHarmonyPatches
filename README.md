@@ -4,6 +4,8 @@ Uses BepInEx and Harmony to make patches for Thea 2
 
 Each modification is found in a different DLL file so you can choose which to use.
 
+![Mod](https://raw.githubusercontent.com/purpleorangegames/Thea2BepInExHarmonyPatches/master/Mod.png)
+
 ### Current Patches
 
 + /BepInEx/plugins/HarmonyFix.dll : Fix to allow Harmony to work with Thea 2

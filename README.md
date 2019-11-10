@@ -48,6 +48,8 @@ Each modification is found in a different DLL file so you can choose which to us
 
 Unzip the files in the Thea 2 game folder.
 
+![Installed](https://raw.githubusercontent.com/purpleorangegames/Thea2BepInExHarmonyPatches/master/Installed.png)
+
 ### Steam default location:
 
 C:\Program Files (x86)\Steam\steamapps\common\Thea 2 The Shattering

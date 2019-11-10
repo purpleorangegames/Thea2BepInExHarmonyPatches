@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Thea2BepInExHarmonyPatches")]
+[assembly: AssemblyTitle("Thea2BepInExHarmonyPatches_AutosaveEveryTurn")]
 [assembly: AssemblyDescription("Uses BepInEx and Harmony to make patches for Thea 2")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("POG")]
-[assembly: AssemblyProduct("Thea2BepInExHarmonyPatches")]
+[assembly: AssemblyProduct("Thea2BepInExHarmonyPatches_AutosaveEveryTurn")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

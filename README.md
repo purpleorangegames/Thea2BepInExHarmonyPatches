@@ -21,10 +21,6 @@ Each modification is found in a different DLL file so you can choose which to us
 + /BepInEx/patchers/NoCardCloningPrePatcher.dll : A fix to be able to use Harmony on the method for checking card cost
 
 
-### File with patches for Thea 2:
-
-/BepInEx/plugins/Thea2Patch.dll
-
 ### Default files:
 
 /BepInEx/core/0Harmony.dll

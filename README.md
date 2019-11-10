@@ -2,16 +2,24 @@
 
 Uses BepInEx and Harmony to make patches for Thea 2
 
+Each modification is found in a different DLL file so you can choose which to use.
+
 ### Current Patches
 
-+ ScriptBundleLoader.ScriptBundle constructor as to skip assemblies with no location (allows Harmony to be imported)
++ /BepInEx/plugins/HarmonyFix.dll : Fix to allow Harmony to work with Thea 2
 
-+ FSMCoreGame.TemporalEventMode() to disable Halloween event (by running TemporalEventModeOff right after)
++ /BepInEx/plugins/StopHalloweenEvent.dll : Disables Halloween event (by running TemporalEventModeOff right after)
 
-+ SMTM_PlayerTurn.Activated() to add two new autosave code, one for even turns and another for odd turns
++ /BepInEx/plugins/ForceHalloweenEvent.dll : Forces Halloween event (by turning on halloween flag)
 
-+ (NEW) A bunch of patches to put a button on the Equip screen to be able to Remove Characters from the party.
++ /BepInEx/plugins/AutosaveEveryTurn.dll : Add two new autosave slots, one for even turns and another for odd turns
 
++ /BepInEx/plugins/RemoveCharacterButton.dll : Remove Character button added to the Equip screen
+
+
+### File with patches for Thea 2:
+
+/BepInEx/plugins/Thea2Patch.dll
 
 ### Default files:
 
@@ -34,13 +42,6 @@ Uses BepInEx and Harmony to make patches for Thea 2
 /winhttp.dll
 
 /doorstop_config.ini
-
-
-### File with patches for Thea 2:
-
-/BepInEx/plugins/Thea2Patch.dll
-
-
 
 
 # Installation

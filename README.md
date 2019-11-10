@@ -10,6 +10,8 @@ Uses BepInEx and Harmony to make patches for Thea 2
 
 + SMTM_PlayerTurn.Activated() to add two new autosave code, one for even turns and another for odd turns
 
++ (NEW) A bunch of patches to put a button on the Equip screen to be able to Remove Characters from the party.
+
 
 ### Default files:
 

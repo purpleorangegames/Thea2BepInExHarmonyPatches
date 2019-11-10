@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopHalloweenEvent", "StopH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForceHalloweenEvent", "ForceHalloweenEvent\ForceHalloweenEvent.csproj", "{D3F0CD7E-7A51-461D-BA2C-B4E583ECBDD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoCardCloning", "NoCardCloning\NoCardCloning.csproj", "{BF279369-5134-4AD9-AE6F-7C1BF4B9E990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoCardCloningPrePatcher", "NoCardCloningPrePatcher\NoCardCloningPrePatcher.csproj", "{3BC45CC8-DAED-48F1-8B12-B155E43C745E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,22 @@ Global
 		{D3F0CD7E-7A51-461D-BA2C-B4E583ECBDD3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D3F0CD7E-7A51-461D-BA2C-B4E583ECBDD3}.Release|x86.ActiveCfg = Release|x86
 		{D3F0CD7E-7A51-461D-BA2C-B4E583ECBDD3}.Release|x86.Build.0 = Release|x86
+		{BF279369-5134-4AD9-AE6F-7C1BF4B9E990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF279369-5134-4AD9-AE6F-7C1BF4B9E990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF279369-5134-4AD9-AE6F-7C1BF4B9E990}.Debug|x86.ActiveCfg = Debug|x86
+		{BF279369-5134-4AD9-AE6F-7C1BF4B9E990}.Debug|x86.Build.0 = Debug|x86
+		{BF279369-5134-4AD9-AE6F-7C1BF4B9E990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF279369-5134-4AD9-AE6F-7C1BF4B9E990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF279369-5134-4AD9-AE6F-7C1BF4B9E990}.Release|x86.ActiveCfg = Release|x86
+		{BF279369-5134-4AD9-AE6F-7C1BF4B9E990}.Release|x86.Build.0 = Release|x86
+		{3BC45CC8-DAED-48F1-8B12-B155E43C745E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC45CC8-DAED-48F1-8B12-B155E43C745E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC45CC8-DAED-48F1-8B12-B155E43C745E}.Debug|x86.ActiveCfg = Debug|x86
+		{3BC45CC8-DAED-48F1-8B12-B155E43C745E}.Debug|x86.Build.0 = Debug|x86
+		{3BC45CC8-DAED-48F1-8B12-B155E43C745E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC45CC8-DAED-48F1-8B12-B155E43C745E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC45CC8-DAED-48F1-8B12-B155E43C745E}.Release|x86.ActiveCfg = Release|x86
+		{3BC45CC8-DAED-48F1-8B12-B155E43C745E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

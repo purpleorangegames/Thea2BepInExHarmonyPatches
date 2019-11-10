@@ -16,6 +16,10 @@ Each modification is found in a different DLL file so you can choose which to us
 
 + /BepInEx/plugins/RemoveCharacterButton.dll : Remove Character button added to the Equip screen
 
++ /BepInEx/plugins/NoCardCloning.dll : After using a card the cost for the second use is bigger than possible
+
++ /BepInEx/patchers/NoCardCloningPrePatcher.dll : A fix to be able to use Harmony on the method for checking card cost
+
 
 ### File with patches for Thea 2:
 

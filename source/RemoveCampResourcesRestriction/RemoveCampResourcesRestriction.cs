@@ -63,7 +63,35 @@ namespace Thea2ScriptLoaderFix
                 __instance.gatheringRange = (FInt)2;
             }
             __instance.gatheringRangeArea = HexNeighbors.GetRange(__instance.Position, __instance.gatheringRange.ToInt());
-            List<Thea2.Server.Group> playerGroups = GameInstance.Get().GetPlayerGroups();
+            List<Thea2.Server.Group> playerGroups = GameInstance.Get().GetPlayerGroups().FindAll((Group o) => o.ownerID==__instance.ownerID);
+
+            if (playerGroups != null)
+            {
+                using (List<Group>.Enumerator enumerator = playerGroups.GetEnumerator())
+                {
+                    while (enumerator.MoveNext())
+                    {
+                        Group v = enumerator.Current;
+                        if (v != __instance)
+                        {
+                            if (v.settlement || v.camping)
+                            {
+                                if (v.settlement || (v.characters != null && v.characters.Count >= 1))
+                                {
+                                    if (v.gatheringRangeArea != null)
+                                    {
+                                        int b = HexCoordinates.HexDistance(v.Position, __instance.Position);
+                                        if (!(v.gatheringRange + __instance.gatheringRange < b))
+                                        {
+                                            __instance.gatheringRangeArea = __instance.gatheringRangeArea.FindAll((Vector3i o) => !v.gatheringRangeArea.Contains(o));
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
 
             return false;
         }

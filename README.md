@@ -22,6 +22,8 @@ Each modification is found in a different DLL file so you can choose which to us
 
 + /BepInEx/patchers/NoCardCloningPrePatcher.dll : A fix to be able to use Harmony on the method for checking card cost
 
++ /BepInEx/patchers/RemoveCampResourcesRestriction.dll : Remove camp and settlement resource restrictions for better cooperative multiplayer
+This can be exploited because two or more groups can haverst the same resource, I will see if I can restrict it later
 
 ### Default files:
 
